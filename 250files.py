@@ -1,6 +1,6 @@
 import numpy as np
 import soundfile as sf
-new_data = np.empty([25000,])
+new_data = np.empty([25000,]) #creating an empty array for new file to be generated from original file
 y1 = np.empty([25000,])
 for j in range(1,3):
 	b= "hello"+str(j)+".wav"
